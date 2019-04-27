@@ -1,11 +1,9 @@
 {
   "defaultSeverity": "warning",
-  "extends": [
-    "tslint:recommended"
-  ],
   "linterOptions": {
     "exclude": [
-      "node_modules/**"
+      "node_modules/**",
+      "src/lang/**"
     ]
   },
   "rules": {
@@ -14,6 +12,9 @@
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+    "trailing-comma": false,
+    "semicolon": [true, "never"],
+    "typedef": [true, "call-signature"]
   }
 }

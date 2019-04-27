@@ -1,0 +1,18 @@
+{
+    "ready_for_new": "Ready for something new?",
+    "internet_of_scales": "The internet of scales",
+    "get_started": "Get Started",
+    "selling_points": {
+        "trucking": {
+            "title": "Trucking Edition",
+            "commercial_use": "Designed For commercial use",
+            "real_time_stats": "Real-time statistic and data",
+            "cloud_based": "Cloud-based, so we take care of your data"
+        },
+        "small_shop": {
+            "title": "Small Shop Edition",
+            "small_home_use": "Great option for smaller businesses or home",
+            "etc": "Some other selling point"
+        }
+    }
+}
